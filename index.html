@@ -14,32 +14,32 @@
                 <p class="bill-para">Bill</p>
                 <div class="input-box">
                     <span>₹</span>
-                    <input type="number">
+                    <input id="bill-amount" type="number">
                 </div>
 
                 <p class="tip-para">Select Tip</p>
-                <div class="tip-container">
-                    <div class="tip">5%</div>
-                    <div class="tip">10%</div>
-                    <div class="tip">15%</div>
-                    <div class="tip">25%</div>
-                    <div class="tip">50%</div>
-                    <div class="tip">75%</div>
+                <div class="tip-container disabled">
+                    <button class="tip">5%</button>
+                    <button class="tip">10%</button>
+                    <button class="tip">15%</button>
+                    <button class="tip">25%</button>
+                    <button class="tip">50%</button>
+                    <button class="tip">75%</button>
                 </div>
 
-                <input class="custom-tip gray-input" type="number" placeholder="Custom Tip">
+                <input class="custom-tip gray-input" type="number" placeholder="Custom Tip in %" disabled>
 
                 <p class="people-para">Number Of People</p>
-                <input class="no-of-people gray-input" type="number" placeholder="No of people">
+                <input class="no-of-people gray-input" type="number" placeholder="No of people" disabled>
 
-                <button class="generate-bill-btn">Generate Bill</button>
+                <button class="generate-bill-btn" disabled>Generate Bill</button>
             </div>
 
             <div class="bill-output">
                 <p class="tip-amount">Tip amount <span></span></p>
                 <p class="total">Total <span></span></p>
                 <p class="each-person-bill">Each Person Bill <span></span></p>
-                <button class="reset-btn">Reset</button>
+                <button class="reset-btn" disabled>Reset</button>
             </div>
         </div>
     </div>
